@@ -1,0 +1,35 @@
+/* AppBar.css */
+
+.app-bar {
+    background-color: #b0e0e6; /* Color pastel */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.app-subtitle {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.add-note-button {
+    background-color: #ffebcd;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-note-button:hover {
+    background-color: #ffd1dc;
+}

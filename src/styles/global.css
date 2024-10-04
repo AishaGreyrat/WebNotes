@@ -1,0 +1,43 @@
+
+/* Fuente global */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* Color de fondo suave */
+}
+
+/* Ajuste de encabezados */
+h1, h2, h3 {
+  margin: 0;
+}
+
+/* Botones generales */
+button {
+  font-family: 'Noto Sans', sans-serif;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+}

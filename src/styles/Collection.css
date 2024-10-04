@@ -1,0 +1,43 @@
+/* Collection.css */
+.collection-container {
+    position: relative; /* Changed from absolute to fixed */
+    width: 300px;
+    height: auto; /* Adjust height to fit content */
+    background-color: #f0f0f0; /* Pastel background color */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    z-index: 100; /* Make sure it's on top of other elements */
+    top: 500px;
+  }
+  
+  .collection-title {
+    font-weight: 500; /* Bold title */
+    text-align: center;
+  }
+  
+  .collection-notes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  
+  .add-collection-btn {
+    background-color: #ffcccb;
+    color: #000;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .collections-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
